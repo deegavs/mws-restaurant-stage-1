@@ -1,28 +1,55 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Mobile Web Specialist Certification Course / Frontend Nanodegree Project - Restaurant Reviews
 
-## Project Overview: Stage 1
+## Table of contents
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+* [Project Description](#project-description)
+* [TO DO](#to-do)
+* [Installation](#installation)
+* [Dependencies](#dependencies)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgments](#acknowledgments)
 
-### Specification
+## Project Description
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+This project is part of Udacity's Front End Web Development Nanodegree and the Mobile Web Specialist Certification Course. We were given a static webpage that's barely usable. It lacks the compatibility across different devices, doesn't have any standard accessibility feature and it cannot be used offline. Our task is to update the code to resolve these issues while still maintaining the included functionality.
 
-### What do I do from here?
+To achieve the lacking features on this **Restaurant Reviews** static webpage, we need to convert this webpage for a mobile-ready web application that is accessible for screen readers and has a service worker for offline use.
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+## TO DO
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+1. Implement media queries for responsiveness (project requirement).
+2. Implement accessibility for screen readers (project requirement).
+3. Create a Service Worker for offline use (project requirement).
+4. Improve the layout and colour for a friendlier user experience (additional).
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+## Installation
 
-### Note about ES6
+1. You need to Download the Repository or Zip file and start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+2. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`.
 
+3. With your server running, visit the site: `http://localhost:8000`, explore the website to see what the current experience looks like with the implementation of responsive design, accessibility and offline use.
 
+## Dependencies
 
+* Python to run the website on my computer on a localhost           port(`http://localhost:8000`).
+* Google maps `Javascript API` for the the live maps on this website.
+* Most of the code in this project has been written to the `ES6 JavaScript` specification for compatibility with modern web browsers and future proofing `JavaScript code`.
+
+## Contributing
+
+This is a student project and there would a need to revisit this project in the future for reference and possibility of further development. I therefore not likely to accept pull requests.
+
+For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+(c) 2018 Edmond Gagavo.
+
+This repository is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+For further information see [LICENSE](LICENSE)
+
+## Acknowledgments
+
+Thanks to Mohamed Riaad's study jam session, Doug Brown's Webinar and Matthew Cranford's walkthrough with the service worker on this project that helped very much to the completion of this project.
