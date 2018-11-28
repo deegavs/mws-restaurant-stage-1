@@ -20,7 +20,7 @@
     </nav>
     <!-- Beginning breadcrumb -->
     <ul id="breadcrumb">
-      <li><a aria-label="navigate Home" role="navigation" href="/">Home</a></li>
+      <li><a aria-label="breadcrumb" role="navigation" href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -31,14 +31,14 @@
   <main id="maincontent">
 
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
+    <section id="map-container" tabindex="-1">
+      <div id="map" tabindex="0" role="application" aria-label="Map of the restaurant location"></div>
     </section>
     <!-- End map -->
 
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 tabindex="0" id="restaurant-name"></h1>
+      <h2 tabindex="0" id="restaurant-name"></h2>
       <img tabindex="0" id="restaurant-img">
       <p tabindex="0" id="restaurant-cuisine"></p>
       <p tabindex="0" id="restaurant-address"></p>
